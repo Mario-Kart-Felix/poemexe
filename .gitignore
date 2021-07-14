@@ -1,0 +1,4 @@
+*.log
+.bundle/*
+auth.*
+model.json

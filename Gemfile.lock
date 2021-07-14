@@ -1,0 +1,77 @@
+GIT
+  remote: https://github.com/tootsuite/mastodon-api.git
+  revision: 189deb8219ae1ce7c34386d9ad1ca7e4a5fec62c
+  ref: 189deb8219ae1ce7c34386d9ad1ca7e4a5fec62c
+  specs:
+    mastodon-api (1.2.0)
+      addressable (~> 2.5)
+      buftok
+      http (~> 3.0)
+      oj (~> 3.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    ast (2.4.0)
+    buftok (0.2.0)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    equalizer (0.0.11)
+    http (3.3.0)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (2.1.1)
+    http_parser.rb (0.6.0)
+    jaro_winkler (1.5.4)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
+    multipart-post (2.0.0)
+    naught (1.1.0)
+    oj (3.6.11)
+    parallel (1.18.0)
+    parser (2.6.5.0)
+      ast (~> 2.4.0)
+    public_suffix (3.0.3)
+    rainbow (3.0.0)
+    rubocop (0.76.0)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.6)
+      rainbow (>= 2.2.2, < 4.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 1.7)
+    ruby-progressbar (1.10.1)
+    simple_oauth (0.3.1)
+    thread_safe (0.3.6)
+    twitter (6.2.0)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      equalizer (~> 0.0.11)
+      http (~> 3.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+      memoizable (~> 0.4.0)
+      multipart-post (~> 2.0)
+      naught (~> 1.0)
+      simple_oauth (~> 0.3.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5)
+    unicode-display_width (1.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mastodon-api!
+  rubocop (~> 0.76.0)
+  twitter (~> 6.2.0)
+
+BUNDLED WITH
+   2.0.2
